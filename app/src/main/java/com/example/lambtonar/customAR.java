@@ -2,6 +2,7 @@ package com.example.lambtonar;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.hardware.Camera;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -14,6 +15,7 @@ import com.google.ar.core.AugmentedImageDatabase;
 import com.google.ar.core.Config;
 import com.google.ar.core.Session;
 import com.google.ar.sceneform.ux.ArFragment;
+
 // extands the arFragment to enable augmented images
 public class customAR extends ArFragment {
 
@@ -51,4 +53,9 @@ public class customAR extends ArFragment {
         return frameLayout;
 
     }
+
+//    @Override
+//    public void onAutoFocus(boolean success, Camera camera) {
+//
+//    }
 }
